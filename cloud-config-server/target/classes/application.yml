@@ -1,0 +1,21 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/chipilski/configserver.git # default
+          #username: abc
+          #password: abc
+          search-paths:
+            - 'station*'
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: user
