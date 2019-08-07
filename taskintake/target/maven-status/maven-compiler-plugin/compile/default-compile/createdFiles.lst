@@ -1,4 +1,4 @@
-pluralsight/demo/TaskConfig.class
-pluralsight/demo/PluralsightSpringcloudM3TaskintakeApplication.class
-pluralsight/demo/TaskProcessor.class
-pluralsight/demo/TaskController.class
+com/project/TaskIntakeApplication.class
+com/project/TaskController.class
+com/project/TaskProcessor.class
+com/project/TaskConfig.class

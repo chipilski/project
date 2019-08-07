@@ -1,4 +1,4 @@
-/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/pluralsight/demo/TaskConfig.java
-/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/pluralsight/demo/TaskController.java
-/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/pluralsight/demo/TaskProcessor.java
-/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/pluralsight/demo/PluralsightSpringcloudM3TaskintakeApplication.java
+/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/com/project/TaskProcessor.java
+/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/com/project/TaskIntakeApplication.java
+/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/com/project/TaskConfig.java
+/home/tsvetan/PROJECT/theproject/project/taskintake/src/main/java/com/project/TaskController.java

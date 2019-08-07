@@ -8,18 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="config-server" />
-        <module name="taskintake" />
         <module name="tasksink" />
         <module name="maven-archiver (1)" />
         <module name="task" />
         <module name="maven-archiver (2)" />
       </profile>
-      <profile name="Annotation profile for Unknown" enabled="true">
-        <sourceOutputDir name="../../../pluralsight-springcloud-m3-task/target/maven-archiver/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../pluralsight-springcloud-m3-task/target/maven-archiver/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="maven-archiver (3)" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="task2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

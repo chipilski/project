@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>tasksink1</name>
+	<name>tasksink</name>
 	<description>testing out spring cloud task sink</description>
 
 	<parent>
