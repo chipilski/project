@@ -9,10 +9,10 @@ spring:
           enabled: false
         git:
           uri: https://github.com/chipilski/configserver.git # default
-          #username: abc
-          #password: abc
+          username: user
+          password: user
           search-paths:
-            - 'station*'
+            - 'node*'
 security:
   basic:
     enabled: true

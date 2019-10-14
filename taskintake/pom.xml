@@ -6,9 +6,9 @@
 	<groupId>project</groupId>
 	<artifactId>taskintake</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
-	<name>taskintake1</name>
+	<name>taskintake</name>
 	<description>testing out spring cloud task intake</description>
 
 	<parent>

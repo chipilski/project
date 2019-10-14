@@ -21,9 +21,9 @@ public class TaskProcessor {
 	public void publishRequest(String payload) {
 
 		//maven://[groupid]:[artifactid]:jar:[version]
-		String url = "maven://project:task1:jar:0.0.1-SNAPSHOT";
+		String url = "maven://project:task:jar:0.0.1-SNAPSHOT";
 
-		List<String> input = new ArrayList<>(Arrays.asList(payload.split(",")));
+		List<String> input = new ArrayList<String>(Arrays.asList(payload.split(",")));
 
 		TaskLaunchRequest request = new TaskLaunchRequest(url, input, null, null);
 

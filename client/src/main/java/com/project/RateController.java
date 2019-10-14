@@ -19,12 +19,16 @@ public class RateController {
 	@Value("${tollstart}")
 	String tollstart;
 
+	@Value("${tollstop}")
+	String tollStop;
+
 	@RequestMapping("/rate")
 	public String getRate(Model m) {
 
 		m.addAttribute("rateamount", rate);
 		m.addAttribute("lanes", lanecount);
 		m.addAttribute("tollstart", tollstart);
+		m.addAttribute("tollstop", tollStop);
 				
 		//name of view
 		return "rateview";

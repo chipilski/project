@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-server/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/pluralsight-springcloud-m3-task/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/pluralsight-springcloud-m3-task/pom.xml" />
-        <option value="$PROJECT_DIR$/pluralsight-springcloud-m3-tasksink/pom.xml" />
-        <option value="$PROJECT_DIR$/pluralsight-springcloud-m3-taskintake/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
